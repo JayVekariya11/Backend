@@ -1,0 +1,21 @@
+<!-- callback -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function abc(a,b){
+            console.log(a)
+            b()
+        }
+        function xyz(){
+            console.log("Jay")
+        }
+        abc(1,xyz)
+    </script>
+</body>
+</html>

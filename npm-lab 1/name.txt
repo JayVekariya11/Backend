@@ -1,0 +1,6 @@
+cors
+nodemone
+express
+multer
+jsonwebtoken
+ mongoose
